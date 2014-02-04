@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
+ruby '1.9.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
@@ -27,6 +28,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
+gem 'devise'
 
 group :development, :test do
 	gem 'sqlite3'
