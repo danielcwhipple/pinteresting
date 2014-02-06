@@ -1,9 +1,10 @@
 <div class="jumbotron center">
-     <h1>Welcome to RENTLY!</h1>
+     <h2>Welcome to HOA!</h2></br>
+     <h4>HOA lets you easily manage your HOA community through community calendars, contact and social media directories, community resources, HOA fee payment portals, updates/alerts and community document center</h4>
      <% if user_signed_in? %>
-      
+
      <% else %>
-       <p>
+       <p></br>
          <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
          <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
        </p>
